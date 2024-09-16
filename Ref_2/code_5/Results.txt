@@ -1,0 +1,176 @@
+
+        SystemC 2.3.3-Accellera --- Nov 30 2021 01:58:54
+        Copyright (c) 1996-2018 by all Contributors,
+        ALL RIGHTS RESERVED
+Receiver [1] ready to receive something at: 5 ns
+Buffer [1] is empty, waiting ...
+Transmitter intends to transmit (00000000) at: 7 ns to: [2]
+Transmitter completed transmtting (00000000) at: 7 ns to: [2]
+Receiver [2] ready to receive something at: 9 ns
+Receiver [2] received (00000000) at: 9 ns from transmitter
+Receiver [0] ready to receive something at: 12 ns
+Buffer [0] is empty, waiting ...
+Transmitter intends to transmit (00000001) at: 14 ns to: [2]
+Transmitter completed transmtting (00000001) at: 14 ns to: [2]
+Receiver [2] ready to receive something at: 18 ns
+Receiver [2] received (00000001) at: 18 ns from transmitter
+Transmitter intends to transmit (00000010) at: 21 ns to: [1]
+Transmitter completed transmtting (00000010) at: 21 ns to: [1]
+Receiver [1] received (00000010) at: 21 ns from transmitter
+Receiver [1] ready to receive something at: 26 ns
+Buffer [1] is empty, waiting ...
+Receiver [2] ready to receive something at: 27 ns
+Buffer [2] is empty, waiting ...
+Transmitter intends to transmit (00000011) at: 28 ns to: [1]
+Transmitter completed transmtting (00000011) at: 28 ns to: [1]
+Receiver [1] received (00000011) at: 28 ns from transmitter
+Receiver [1] ready to receive something at: 33 ns
+Buffer [1] is empty, waiting ...
+Transmitter intends to transmit (00000100) at: 35 ns to: [2]
+Transmitter completed transmtting (00000100) at: 35 ns to: [2]
+Receiver [2] received (00000100) at: 35 ns from transmitter
+Transmitter intends to transmit (00000101) at: 42 ns to: [1]
+Transmitter completed transmtting (00000101) at: 42 ns to: [1]
+Receiver [1] received (00000101) at: 42 ns from transmitter
+Receiver [2] ready to receive something at: 44 ns
+Buffer [2] is empty, waiting ...
+Receiver [1] ready to receive something at: 47 ns
+Buffer [1] is empty, waiting ...
+Transmitter intends to transmit (00000110) at: 49 ns to: [0]
+Transmitter completed transmtting (00000110) at: 49 ns to: [0]
+Receiver [0] received (00000110) at: 49 ns from transmitter
+Transmitter intends to transmit (00000111) at: 56 ns to: [0]
+Transmitter completed transmtting (00000111) at: 56 ns to: [0]
+Receiver [0] ready to receive something at: 61 ns
+Receiver [0] received (00000111) at: 61 ns from transmitter
+Transmitter intends to transmit (00001000) at: 63 ns to: [1]
+Transmitter completed transmtting (00001000) at: 63 ns to: [1]
+Receiver [1] received (00001000) at: 63 ns from transmitter
+Receiver [1] ready to receive something at: 68 ns
+Buffer [1] is empty, waiting ...
+Transmitter intends to transmit (00001001) at: 70 ns to: [2]
+Transmitter completed transmtting (00001001) at: 70 ns to: [2]
+Receiver [2] received (00001001) at: 70 ns from transmitter
+Receiver [0] ready to receive something at: 73 ns
+Buffer [0] is empty, waiting ...
+Transmitter intends to transmit (00001010) at: 77 ns to: [2]
+Transmitter completed transmtting (00001010) at: 77 ns to: [2]
+Receiver [2] ready to receive something at: 79 ns
+Receiver [2] received (00001010) at: 79 ns from transmitter
+Transmitter intends to transmit (00001011) at: 84 ns to: [2]
+Transmitter completed transmtting (00001011) at: 84 ns to: [2]
+Receiver [2] ready to receive something at: 88 ns
+Receiver [2] received (00001011) at: 88 ns from transmitter
+Transmitter intends to transmit (00001100) at: 91 ns to: [1]
+Transmitter completed transmtting (00001100) at: 91 ns to: [1]
+Receiver [1] received (00001100) at: 91 ns from transmitter
+Receiver [1] ready to receive something at: 96 ns
+Buffer [1] is empty, waiting ...
+Receiver [2] ready to receive something at: 97 ns
+Buffer [2] is empty, waiting ...
+Transmitter intends to transmit (00001101) at: 98 ns to: [0]
+Transmitter completed transmtting (00001101) at: 98 ns to: [0]
+Receiver [0] received (00001101) at: 98 ns from transmitter
+Transmitter intends to transmit (00001110) at: 105 ns to: [1]
+Transmitter completed transmtting (00001110) at: 105 ns to: [1]
+Receiver [1] received (00001110) at: 105 ns from transmitter
+Receiver [0] ready to receive something at: 110 ns
+Buffer [0] is empty, waiting ...
+Receiver [1] ready to receive something at: 110 ns
+Buffer [1] is empty, waiting ...
+Transmitter intends to transmit (00001111) at: 112 ns to: [2]
+Transmitter completed transmtting (00001111) at: 112 ns to: [2]
+Receiver [2] received (00001111) at: 112 ns from transmitter
+Transmitter intends to transmit (00010000) at: 119 ns to: [1]
+Transmitter completed transmtting (00010000) at: 119 ns to: [1]
+Receiver [1] received (00010000) at: 119 ns from transmitter
+Receiver [2] ready to receive something at: 121 ns
+Buffer [2] is empty, waiting ...
+Receiver [1] ready to receive something at: 124 ns
+Buffer [1] is empty, waiting ...
+Transmitter intends to transmit (00010001) at: 126 ns to: [2]
+Transmitter completed transmtting (00010001) at: 126 ns to: [2]
+Receiver [2] received (00010001) at: 126 ns from transmitter
+Transmitter intends to transmit (00010010) at: 133 ns to: [0]
+Transmitter completed transmtting (00010010) at: 133 ns to: [0]
+Receiver [0] received (00010010) at: 133 ns from transmitter
+Receiver [2] ready to receive something at: 135 ns
+Buffer [2] is empty, waiting ...
+Transmitter intends to transmit (00010011) at: 140 ns to: [0]
+Transmitter completed transmtting (00010011) at: 140 ns to: [0]
+Receiver [0] ready to receive something at: 145 ns
+Receiver [0] received (00010011) at: 145 ns from transmitter
+Transmitter intends to transmit (00010100) at: 147 ns to: [0]
+Transmitter completed transmtting (00010100) at: 147 ns to: [0]
+Transmitter intends to transmit (00010101) at: 154 ns to: [0]
+Buffer [0] is full, waiting ...
+Receiver [0] ready to receive something at: 157 ns
+Receiver [0] received (00010100) at: 157 ns from transmitter
+Transmitter completed transmtting (00010101) at: 157 ns to: [0]
+Transmitter intends to transmit (00010110) at: 164 ns to: [2]
+Transmitter completed transmtting (00010110) at: 164 ns to: [2]
+Receiver [2] received (00010110) at: 164 ns from transmitter
+Receiver [0] ready to receive something at: 169 ns
+Receiver [0] received (00010101) at: 169 ns from transmitter
+Transmitter intends to transmit (00010111) at: 171 ns to: [0]
+Transmitter completed transmtting (00010111) at: 171 ns to: [0]
+Receiver [2] ready to receive something at: 173 ns
+Buffer [2] is empty, waiting ...
+Transmitter intends to transmit (00011000) at: 178 ns to: [1]
+Transmitter completed transmtting (00011000) at: 178 ns to: [1]
+Receiver [1] received (00011000) at: 178 ns from transmitter
+Receiver [0] ready to receive something at: 181 ns
+Receiver [0] received (00010111) at: 181 ns from transmitter
+Receiver [1] ready to receive something at: 183 ns
+Buffer [1] is empty, waiting ...
+Transmitter intends to transmit (00011001) at: 185 ns to: [1]
+Transmitter completed transmtting (00011001) at: 185 ns to: [1]
+Receiver [1] received (00011001) at: 185 ns from transmitter
+Receiver [1] ready to receive something at: 190 ns
+Buffer [1] is empty, waiting ...
+Transmitter intends to transmit (00011010) at: 192 ns to: [0]
+Transmitter completed transmtting (00011010) at: 192 ns to: [0]
+Receiver [0] ready to receive something at: 193 ns
+Receiver [0] received (00011010) at: 193 ns from transmitter
+Transmitter intends to transmit (00011011) at: 199 ns to: [2]
+Transmitter completed transmtting (00011011) at: 199 ns to: [2]
+Receiver [2] received (00011011) at: 199 ns from transmitter
+Receiver [0] ready to receive something at: 205 ns
+Buffer [0] is empty, waiting ...
+Transmitter intends to transmit (00011100) at: 206 ns to: [2]
+Transmitter completed transmtting (00011100) at: 206 ns to: [2]
+Receiver [2] ready to receive something at: 208 ns
+Receiver [2] received (00011100) at: 208 ns from transmitter
+Transmitter intends to transmit (00011101) at: 213 ns to: [2]
+Transmitter completed transmtting (00011101) at: 213 ns to: [2]
+Receiver [2] ready to receive something at: 217 ns
+Receiver [2] received (00011101) at: 217 ns from transmitter
+Transmitter intends to transmit (00011110) at: 220 ns to: [2]
+Transmitter completed transmtting (00011110) at: 220 ns to: [2]
+Receiver [2] ready to receive something at: 226 ns
+Receiver [2] received (00011110) at: 226 ns from transmitter
+Transmitter intends to transmit (00011111) at: 227 ns to: [0]
+Transmitter completed transmtting (00011111) at: 227 ns to: [0]
+Receiver [0] received (00011111) at: 227 ns from transmitter
+Transmitter intends to transmit (00100000) at: 234 ns to: [2]
+Transmitter completed transmtting (00100000) at: 234 ns to: [2]
+Receiver [2] ready to receive something at: 235 ns
+Receiver [2] received (00100000) at: 235 ns from transmitter
+Receiver [0] ready to receive something at: 239 ns
+Buffer [0] is empty, waiting ...
+Transmitter intends to transmit (00100001) at: 241 ns to: [0]
+Transmitter completed transmtting (00100001) at: 241 ns to: [0]
+Receiver [0] received (00100001) at: 241 ns from transmitter
+Receiver [2] ready to receive something at: 244 ns
+Buffer [2] is empty, waiting ...
+Transmitter intends to transmit (00100010) at: 248 ns to: [0]
+Transmitter completed transmtting (00100010) at: 248 ns to: [0]
+Receiver [0] ready to receive something at: 253 ns
+Receiver [0] received (00100010) at: 253 ns from transmitter
+Transmitter intends to transmit (00100011) at: 255 ns to: [1]
+Transmitter completed transmtting (00100011) at: 255 ns to: [1]
+Receiver [1] received (00100011) at: 255 ns from transmitter
+Receiver [1] ready to receive something at: 260 ns
+Buffer [1] is empty, waiting ...
+Receiver [0] ready to receive something at: 265 ns
+Buffer [0] is empty, waiting ...
