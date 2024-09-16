@@ -1,0 +1,853 @@
+$date
+     Sep 05, 2016       02:31:01
+$end
+
+$version
+ SystemC 2.3.1-Accellera --- Aug  2 2015 20:10:13
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  Request       $end
+$var wire    1  aaaab  Grant       $end
+$var wire    1  aaaac  CS       $end
+$var wire    1  aaaad  RWbar       $end
+$var wire   16  aaaae  Address [15:0]  $end
+$var wire    8  aaaaf  Data [7:0]  $end
+$var wire    1  aaaag  memReady       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaaaa
+xaaaab
+xaaaac
+xaaaad
+bXXXXXXXXXXXXXXXX aaaae
+bXXXXXXXX aaaaf
+xaaaag
+$end
+
+#1000
+1aaaab
+1aaaac
+0aaaad
+b101001000 aaaae
+b10111110 aaaaf
+
+#6000
+0aaaac
+1aaaag
+
+#7000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#8000
+1aaaac
+0aaaad
+b101001001 aaaae
+b11000 aaaaf
+
+#13000
+0aaaac
+1aaaag
+
+#14000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#15000
+1aaaac
+0aaaad
+b101001010 aaaae
+b0 aaaaf
+
+#20000
+0aaaac
+1aaaag
+
+#21000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#22000
+1aaaac
+0aaaad
+b101001011 aaaae
+b0 aaaaf
+
+#27000
+0aaaac
+1aaaag
+
+#28000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#29000
+1aaaac
+0aaaad
+b101001100 aaaae
+b100011 aaaaf
+
+#34000
+0aaaac
+1aaaag
+
+#35000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#36000
+1aaaac
+0aaaad
+b101001101 aaaae
+b1001000 aaaaf
+
+#41000
+0aaaac
+1aaaag
+
+#42000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#43000
+1aaaac
+0aaaad
+b101001110 aaaae
+b0 aaaaf
+
+#48000
+0aaaac
+1aaaag
+
+#49000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#50000
+1aaaac
+0aaaad
+b101001111 aaaae
+b0 aaaaf
+
+#55000
+0aaaac
+1aaaag
+
+#56000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#57000
+0aaaaa
+
+#58000
+1aaaaa
+0aaaab
+
+#59000
+1aaaab
+1aaaac
+1aaaad
+b101001000 aaaae
+
+#64000
+0aaaac
+1aaaag
+
+#65000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#66000
+1aaaac
+1aaaad
+b101001001 aaaae
+
+#71000
+0aaaac
+1aaaag
+
+#72000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#73000
+1aaaac
+1aaaad
+b101001010 aaaae
+
+#78000
+0aaaac
+1aaaag
+
+#79000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#80000
+1aaaac
+1aaaad
+b101001011 aaaae
+
+#85000
+0aaaac
+1aaaag
+
+#86000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#87000
+1aaaac
+1aaaad
+b101001100 aaaae
+
+#92000
+0aaaac
+1aaaag
+
+#93000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#94000
+1aaaac
+1aaaad
+b101001101 aaaae
+
+#99000
+0aaaac
+1aaaag
+
+#100000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#101000
+1aaaac
+1aaaad
+b101001110 aaaae
+
+#106000
+0aaaac
+1aaaag
+
+#107000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#108000
+1aaaac
+1aaaad
+b101001111 aaaae
+
+#113000
+0aaaac
+1aaaag
+
+#114000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#115000
+0aaaaa
+
+#116000
+1aaaaa
+0aaaab
+
+#117000
+1aaaab
+1aaaac
+0aaaad
+b1010100000 aaaae
+b1101100 aaaaf
+
+#122000
+0aaaac
+1aaaag
+
+#123000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#124000
+1aaaac
+0aaaad
+b1010100001 aaaae
+b111101 aaaaf
+
+#129000
+0aaaac
+1aaaag
+
+#130000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#131000
+1aaaac
+0aaaad
+b1010100010 aaaae
+b0 aaaaf
+
+#136000
+0aaaac
+1aaaag
+
+#137000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#138000
+1aaaac
+0aaaad
+b1010100011 aaaae
+b0 aaaaf
+
+#143000
+0aaaac
+1aaaag
+
+#144000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#145000
+1aaaac
+0aaaad
+b1010100100 aaaae
+b11100001 aaaaf
+
+#150000
+0aaaac
+1aaaag
+
+#151000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#152000
+1aaaac
+0aaaad
+b1010100101 aaaae
+b1001010 aaaaf
+
+#157000
+0aaaac
+1aaaag
+
+#158000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#159000
+1aaaac
+0aaaad
+b1010100110 aaaae
+b0 aaaaf
+
+#164000
+0aaaac
+1aaaag
+
+#165000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#166000
+1aaaac
+0aaaad
+b1010100111 aaaae
+b0 aaaaf
+
+#171000
+0aaaac
+1aaaag
+
+#172000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#173000
+0aaaaa
+
+#174000
+1aaaaa
+0aaaab
+
+#175000
+1aaaab
+1aaaac
+1aaaad
+b110100000 aaaae
+
+#180000
+0aaaac
+1aaaag
+
+#181000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#182000
+1aaaac
+1aaaad
+b110100001 aaaae
+
+#187000
+0aaaac
+1aaaag
+
+#188000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#189000
+1aaaac
+1aaaad
+b110100010 aaaae
+
+#194000
+0aaaac
+1aaaag
+
+#195000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#196000
+1aaaac
+1aaaad
+b110100011 aaaae
+
+#201000
+0aaaac
+1aaaag
+
+#202000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#203000
+1aaaac
+1aaaad
+b110100100 aaaae
+
+#208000
+0aaaac
+1aaaag
+
+#209000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#210000
+1aaaac
+1aaaad
+b110100101 aaaae
+
+#215000
+0aaaac
+1aaaag
+
+#216000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#217000
+1aaaac
+1aaaad
+b110100110 aaaae
+
+#222000
+0aaaac
+1aaaag
+
+#223000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#224000
+1aaaac
+1aaaad
+b110100111 aaaae
+
+#229000
+0aaaac
+1aaaag
+
+#230000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#231000
+0aaaaa
+
+#232000
+1aaaaa
+0aaaab
+
+#233000
+1aaaab
+1aaaac
+0aaaad
+b110000000 aaaae
+b1010010 aaaaf
+
+#238000
+0aaaac
+1aaaag
+
+#239000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#240000
+1aaaac
+0aaaad
+b110000001 aaaae
+b1101001 aaaaf
+
+#245000
+0aaaac
+1aaaag
+
+#246000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#247000
+1aaaac
+0aaaad
+b110000010 aaaae
+b0 aaaaf
+
+#252000
+0aaaac
+1aaaag
+
+#253000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#254000
+1aaaac
+0aaaad
+b110000011 aaaae
+b0 aaaaf
+
+#259000
+0aaaac
+1aaaag
+
+#260000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#261000
+1aaaac
+0aaaad
+b110000100 aaaae
+b10101110 aaaaf
+
+#266000
+0aaaac
+1aaaag
+
+#267000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#268000
+1aaaac
+0aaaad
+b110000101 aaaae
+b1110010 aaaaf
+
+#273000
+0aaaac
+1aaaag
+
+#274000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#275000
+1aaaac
+0aaaad
+b110000110 aaaae
+b0 aaaaf
+
+#280000
+0aaaac
+1aaaag
+
+#281000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#282000
+1aaaac
+0aaaad
+b110000111 aaaae
+b0 aaaaf
+
+#287000
+0aaaac
+1aaaag
+
+#288000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+bZZZZZZZZ aaaaf
+0aaaag
+
+#289000
+0aaaaa
+
+#290000
+1aaaaa
+0aaaab
+
+#291000
+1aaaab
+1aaaac
+1aaaad
+b1101111000 aaaae
+
+#296000
+0aaaac
+1aaaag
+
+#297000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#298000
+1aaaac
+1aaaad
+b1101111001 aaaae
+
+#303000
+0aaaac
+1aaaag
+
+#304000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#305000
+1aaaac
+1aaaad
+b1101111010 aaaae
+
+#310000
+0aaaac
+1aaaag
+
+#311000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#312000
+1aaaac
+1aaaad
+b1101111011 aaaae
+
+#317000
+0aaaac
+1aaaag
+
+#318000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#319000
+1aaaac
+1aaaad
+b1101111100 aaaae
+
+#324000
+0aaaac
+1aaaag
+
+#325000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#326000
+1aaaac
+1aaaad
+b1101111101 aaaae
+
+#331000
+0aaaac
+1aaaag
+
+#332000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#333000
+1aaaac
+1aaaad
+b1101111110 aaaae
+
+#338000
+0aaaac
+1aaaag
+
+#339000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#340000
+1aaaac
+1aaaad
+b1101111111 aaaae
+
+#345000
+0aaaac
+1aaaag
+
+#346000
+zaaaac
+zaaaad
+bZZZZZZZZZZZZZZZZ aaaae
+0aaaag
+
+#347000
+0aaaaa
+
+#348000
+zaaaaa
+0aaaab
+

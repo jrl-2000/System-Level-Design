@@ -1,0 +1,344 @@
+Target [1] ready to receive something at: 4 ns
+Target [1] received (00000000) at: 4 ns from: {0}
+Target [1] ready to receive something at: 8 ns
+Target [1] received (00010000) at: 8 ns from: {1}
+Target [1] ready to receive something at: 12 ns
+Target [1] received (00000001) at: 12 ns from: {0}
+Target [1] ready to receive something at: 16 ns
+Target [1] received (00010001) at: 16 ns from: {1}
+Target [1] ready to receive something at: 20 ns
+Target [1] received (00000100) at: 30 ns from: {0}
+Target [1] ready to receive something at: 34 ns
+Target [1] received (00010100) at: 51 ns from: {1}
+Target [1] ready to receive something at: 55 ns
+Target [1] received (00001010) at: 93 ns from: {0}
+Target [1] ready to receive something at: 97 ns
+Target [1] received (00001011) at: 97 ns from: {0}
+Target [1] ready to receive something at: 101 ns
+Target [1] received (00001100) at: 101 ns from: {0}
+Target [1] ready to receive something at: 105 ns
+Target [1] received (00001101) at: 105 ns from: {0}
+Target [1] ready to receive something at: 109 ns
+Target [1] received (00001110) at: 109 ns from: {0}
+Target [1] ready to receive something at: 113 ns
+Target [1] received (00011010) at: 113 ns from: {1}
+Target [1] ready to receive something at: 117 ns
+Target [1] received (00011011) at: 118 ns from: {1}
+Target [1] ready to receive something at: 122 ns
+Target [1] received (00011100) at: 123 ns from: {1}
+Target [1] ready to receive something at: 127 ns
+Target [1] received (00011101) at: 128 ns from: {1}
+Target [1] ready to receive something at: 132 ns
+Target [1] received (00011110) at: 133 ns from: {1}
+Target [1] ready to receive something at: 137 ns
+d transmtting (00011100) at: 123 ns to: [1]
+
+Initiator {1} intends to transmit (00011101) at: 128 ns to: [1]
+Initiator {1} completed transmtting (00011101) at: 128 ns to: [1]
+
+Initiator {1} intends to transmit (00011110) at: 133 ns to: [1]
+Initiator {1} completed transmtting (00011110) at: 133 ns to: [1]
+
+Initiator {0} intends to transmit (00000000) at: 3 ns to: [1]
+Initiator {0} completed transmtting (00000000) at: 4 ns to: [1]
+
+Initiator {0} intends to transmit (00000001) at: 7 ns to: [1]
+Initiator {0} completed transmtting (00000001) at: 12 ns to: [1]
+
+Initiator {0} intends to transmit (00000010) at: 15 ns to: [0]
+Initiator {0} completed transmtting (00000010) at: 16 ns to: [0]
+
+Initiator {0} intends to transmit (00000011) at: 19 ns to: [0]
+Initiator {0} completed transmtting (00000011) at: 23 ns to: [0]
+
+Initiator {0} intends to transmit (00000100) at: 26 ns to: [1]
+Initiator {0} completed transmtting (00000100) at: 30 ns to: [1]
+
+Initiator {0} intends to transmit (00000101) at: 33 ns to: [0]
+Initiator {0} completed transmtting (00000101) at: 37 ns to: [0]
+
+Initiator {0} intends to transmit (00000110) at: 40 ns to: [0]
+Initiator {0} completed transmtting (00000110) at: 51 ns to: [0]
+
+Initiator {0} intends to transmit (00000111) at: 54 ns to: [0]
+Initiator {0} completed transmtting (00000111) at: 58 ns to: [0]
+
+Initiator {0} intends to transmit (00001000) at: 61 ns to: [0]
+Initiator {0} completed transmtting (00001000) at: 72 ns to: [0]
+
+Initiator {0} intends to transmit (00001001) at: 75 ns to: [0]
+Initiator {0} completed transmtting (00001001) at: 86 ns to: [0]
+
+Initiator {0} intends to transmit (00001010) at: 89 ns to: [1]
+Initiator {0} completed transmtting (00001010) at: 93 ns to: [1]
+
+Initiator {0} intends to transmit (00001011) at: 96 ns to: [1]
+Initiator {0} completed transmtting (00001011) at: 97 ns to: [1]
+
+Initiator {0} intends to transmit (00001100) at: 100 ns to: [1]
+Initiator {0} completed transmtting (00001100) at: 101 ns to: [1]
+
+Initiator {0} intends to transmit (00001101) at: 104 ns to: [1]
+Initiator {0} completed transmtting (00001101) at: 105 ns to: [1]
+
+Initiator {0} intends to transmit (00001110) at: 108 ns to: [1]
+Initiator {0} completed transmtting (00001110) at: 109 ns to: [1]
+
+Initiator {1} intends to transmit (00010000) at: 5 ns to: [1]
+Initiator {1} completed transmtting (00010000) at: 8 ns to: [1]
+
+Initiator {1} intends to transmit (00010001) at: 13 ns to: [1]
+Initiator {1} completed transmtting (00010001) at: 16 ns to: [1]
+
+Initiator {1} intends to transmit (00010010) at: 21 ns to: [0]
+Initiator {1} completed transmtting (00010010) at: 30 ns to: [0]
+
+Initiator {1} intends to transmit (00010011) at: 35 ns to: [0]
+Initiator {1} completed transmtting (00010011) at: 44 ns to: [0]
+
+Initiator {1} intends to transmit (00010100) at: 49 ns to: [1]
+Initiator {1} completed transmtting (00010100) at: 51 ns to: [1]
+
+Initiator {1} intends to transmit (00010101) at: 56 ns to: [0]
+Initiator {1} completed transmtting (00010101) at: 65 ns to: [0]
+
+Initiator {1} intends to transmit (00010110) at: 70 ns to: [0]
+Initiator {1} completed transmtting (00010110) at: 79 ns to: [0]
+
+Initiator {1} intends to transmit (00010111) at: 84 ns to: [0]
+Initiator {1} completed transmtting (00010111) at: 93 ns to: [0]
+
+Initiator {1} intends to transmit (00011000) at: 98 ns to: [0]
+Initiator {1} completed transmtting (00011000) at: 100 ns to: [0]
+
+Initiator {1} intends to transmit (00011001) at: 105 ns to: [0]
+Initiator {1} completed transmtting (00011001) at: 107 ns to: [0]
+
+Initiator {1} intends to transmit (00011010) at: 112 ns to: [1]
+Initiator {1} completed transmtting (00011010) at: 113 ns to: [1]
+
+Initiator {1} intends to transmit (00011011) at: 118 ns to: [1]
+Initiator {1} completed transmtting (00011011) at: 118 ns to: [1]
+
+Initiator {1} intends to transmit (00011100) at: 123 ns to: [1]
+Initiator {1} completed transmtting (00011100) at: 123 ns to: [1]
+
+Initiator {1} intends to transmit (00011101) at: 128 ns to: [1]
+Initiator {1} completed transmtting (00011101) at: 128 ns to: [1]
+
+Initiator {1} intends to transmit (00011110) at: 133 ns to: [1]
+Initiator {1} completed transmtting (00011110) at: 133 ns to: [1]
+Target [0] ready to receive something at: 7 ns
+Target [0] received (00000010) at: 16 ns from: {0}
+Target [0] ready to receive something at: 23 ns
+Target [0] received (00000011) at: 23 ns from: {0}
+Target [0] ready to receive something at: 30 ns
+Target [0] received (00010010) at: 30 ns from: {1}
+Target [0] ready to receive something at: 37 ns
+Target [0] received (00000101) at: 37 ns from: {0}
+Target [0] ready to receive something at: 44 ns
+Target [0] received (00010011) at: 44 ns from: {1}
+Target [0] ready to receive something at: 51 ns
+Target [0] received (00000110) at: 51 ns from: {0}
+Target [0] ready to receive something at: 58 ns
+Target [0] received (00000111) at: 58 ns from: {0}
+Target [0] ready to receive something at: 65 ns
+Target [0] received (00010101) at: 65 ns from: {1}
+Target [0] ready to receive something at: 72 ns
+Target [0] received (00001000) at: 72 ns from: {0}
+Target [0] ready to receive something at: 79 ns
+Target [0] received (00010110) at: 79 ns from: {1}
+Target [0] ready to receive something at: 86 ns
+Target [0] received (00001001) at: 86 ns from: {0}
+Target [0] ready to receive something at: 93 ns
+Target [0] received (00010111) at: 93 ns from: {1}
+Target [0] ready to receive something at: 100 ns
+Target [0] received (00011000) at: 100 ns from: {1}
+Target [0] ready to receive something at: 107 ns
+Target [0] received (00011001) at: 107 ns from: {1}
+Target [0] ready to receive something at: 114 ns
+Target [1] ready to receive something at: 4 ns
+Target [1] received (00000000) at: 4 ns from: {0}
+Target [1] ready to receive something at: 8 ns
+Target [1] received (00010000) at: 8 ns from: {1}
+Target [1] ready to receive something at: 12 ns
+Target [1] received (00000001) at: 12 ns from: {0}
+Target [1] ready to receive something at: 16 ns
+Target [1] received (00010001) at: 16 ns from: {1}
+Target [1] ready to receive something at: 20 ns
+Target [1] received (00000100) at: 30 ns from: {0}
+Target [1] ready to receive something at: 34 ns
+Target [1] received (00010100) at: 51 ns from: {1}
+Target [1] ready to receive something at: 55 ns
+Target [1] received (00001010) at: 93 ns from: {0}
+Target [1] ready to receive something at: 97 ns
+Target [1] received (00001011) at: 97 ns from: {0}
+Target [1] ready to receive something at: 101 ns
+Target [1] received (00001100) at: 101 ns from: {0}
+Target [1] ready to receive something at: 105 ns
+Target [1] received (00001101) at: 105 ns from: {0}
+Target [1] ready to receive something at: 109 ns
+Target [1] received (00001110) at: 109 ns from: {0}
+Target [1] ready to receive something at: 113 ns
+Target [1] received (00011010) at: 113 ns from: {1}
+Target [1] ready to receive something at: 117 ns
+Target [1] received (00011011) at: 118 ns from: {1}
+Target [1] ready to receive something at: 122 ns
+Target [1] received (00011100) at: 123 ns from: {1}
+Target [1] ready to receive something at: 127 ns
+Target [1] received (00011101) at: 128 ns from: {1}
+Target [1] ready to receive something at: 132 ns
+Target [1] received (00011110) at: 133 ns from: {1}
+Target [1] ready to receive something at: 137 ns
+
+Initiator {0} intends to transmit (00000000) at: 3 ns to: [1]
+Initiator {0} completed transmtting (00000000) at: 4 ns to: [1]
+
+Initiator {0} intends to transmit (00000001) at: 7 ns to: [1]
+Initiator {0} completed transmtting (00000001) at: 12 ns to: [1]
+
+Initiator {0} intends to transmit (00000010) at: 15 ns to: [0]
+Initiator {0} completed transmtting (00000010) at: 16 ns to: [0]
+
+Initiator {0} intends to transmit (00000011) at: 19 ns to: [0]
+Initiator {0} completed transmtting (00000011) at: 23 ns to: [0]
+
+Initiator {0} intends to transmit (00000100) at: 26 ns to: [1]
+Initiator {0} completed transmtting (00000100) at: 30 ns to: [1]
+
+Initiator {0} intends to transmit (00000101) at: 33 ns to: [0]
+Initiator {0} completed transmtting (00000101) at: 37 ns to: [0]
+
+Initiator {0} intends to transmit (00000110) at: 40 ns to: [0]
+Initiator {0} completed transmtting (00000110) at: 51 ns to: [0]
+
+Initiator {0} intends to transmit (00000111) at: 54 ns to: [0]
+Initiator {0} completed transmtting (00000111) at: 58 ns to: [0]
+
+Initiator {0} intends to transmit (00001000) at: 61 ns to: [0]
+Initiator {0} completed transmtting (00001000) at: 72 ns to: [0]
+
+Initiator {0} intends to transmit (00001001) at: 75 ns to: [0]
+Initiator {0} completed transmtting (00001001) at: 86 ns to: [0]
+
+Initiator {0} intends to transmit (00001010) at: 89 ns to: [1]
+Initiator {0} completed transmtting (00001010) at: 93 ns to: [1]
+
+Initiator {0} intends to transmit (00001011) at: 96 ns to: [1]
+Initiator {0} completed transmtting (00001011) at: 97 ns to: [1]
+
+Initiator {0} intends to transmit (00001100) at: 100 ns to: [1]
+Initiator {0} completed transmtting (00001100) at: 101 ns to: [1]
+
+Initiator {0} intends to transmit (00001101) at: 104 ns to: [1]
+Initiator {0} completed transmtting (00001101) at: 105 ns to: [1]
+
+Initiator {0} intends to transmit (00001110) at: 108 ns to: [1]
+Initiator {0} completed transmtting (00001110) at: 109 ns to: [1]
+
+Initiator {1} intends to transmit (00010000) at: 5 ns to: [1]
+Initiator {1} completed transmtting (00010000) at: 8 ns to: [1]
+
+Initiator {1} intends to transmit (00010001) at: 13 ns to: [1]
+Initiator {1} completed transmtting (00010001) at: 16 ns to: [1]
+
+Initiator {1} intends to transmit (00010010) at: 21 ns to: [0]
+Initiator {1} completed transmtting (00010010) at: 30 ns to: [0]
+
+Initiator {1} intends to transmit (00010011) at: 35 ns to: [0]
+Initiator {1} completed transmtting (00010011) at: 44 ns to: [0]
+
+Initiator {1} intends to transmit (00010100) at: 49 ns to: [1]
+Initiator {1} completed transmtting (00010100) at: 51 ns to: [1]
+
+Initiator {1} intends to transmit (00010101) at: 56 ns to: [0]
+Initiator {1} completed transmtting (00010101) at: 65 ns to: [0]
+
+Initiator {1} intends to transmit (00010110) at: 70 ns to: [0]
+Initiator {1} completed transmtting (00010110) at: 79 ns to: [0]
+
+Initiator {1} intends to transmit (00010111) at: 84 ns to: [0]
+Initiator {1} completed transmtting (00010111) at: 93 ns to: [0]
+
+Initiator {1} intends to transmit (00011000) at: 98 ns to: [0]
+Initiator {1} completed transmtting (00011000) at: 100 ns to: [0]
+
+Initiator {1} intends to transmit (00011001) at: 105 ns to: [0]
+Initiator {1} completed transmtting (00011001) at: 107 ns to: [0]
+
+Initiator {1} intends to transmit (00011010) at: 112 ns to: [1]
+Initiator {1} completed transmtting (00011010) at: 113 ns to: [1]
+
+Initiator {1} intends to transmit (00011011) at: 118 ns to: [1]
+Initiator {1} completed transmtting (00011011) at: 118 ns to: [1]
+
+Initiator {1} intends to transmit (00011100) at: 123 ns to: [1]
+Initiator {1} completed transmtting (00011100) at: 123 ns to: [1]
+
+Initiator {1} intends to transmit (00011101) at: 128 ns to: [1]
+Initiator {1} completed transmtting (00011101) at: 128 ns to: [1]
+
+Initiator {1} intends to transmit (00011110) at: 133 ns to: [1]
+Initiator {1} completed transmtting (00011110) at: 133 ns to: [1]
+Target [0] ready to receive something at: 7 ns
+Target [0] received (00000010) at: 16 ns from: {0}
+Target [0] ready to receive something at: 23 ns
+Target [0] received (00000011) at: 23 ns from: {0}
+Target [0] ready to receive something at: 30 ns
+Target [0] received (00010010) at: 30 ns from: {1}
+Target [0] ready to receive something at: 37 ns
+Target [0] received (00000101) at: 37 ns from: {0}
+Target [0] ready to receive something at: 44 ns
+Target [0] received (00010011) at: 44 ns from: {1}
+Target [0] ready to receive something at: 51 ns
+Target [0] received (00000110) at: 51 ns from: {0}
+Target [0] ready to receive something at: 58 ns
+Target [0] received (00000111) at: 58 ns from: {0}
+Target [0] ready to receive something at: 65 ns
+Target [0] received (00010101) at: 65 ns from: {1}
+Target [0] ready to receive something at: 72 ns
+Target [0] received (00001000) at: 72 ns from: {0}
+Target [0] ready to receive something at: 79 ns
+Target [0] received (00010110) at: 79 ns from: {1}
+Target [0] ready to receive something at: 86 ns
+Target [0] received (00001001) at: 86 ns from: {0}
+Target [0] ready to receive something at: 93 ns
+Target [0] received (00010111) at: 93 ns from: {1}
+Target [0] ready to receive something at: 100 ns
+Target [0] received (00011000) at: 100 ns from: {1}
+Target [0] ready to receive something at: 107 ns
+Target [0] received (00011001) at: 107 ns from: {1}
+Target [0] ready to receive something at: 114 ns
+Target [1] ready to receive something at: 4 ns
+Target [1] received (00000000) at: 4 ns from: {0}
+Target [1] ready to receive something at: 8 ns
+Target [1] received (00010000) at: 8 ns from: {1}
+Target [1] ready to receive something at: 12 ns
+Target [1] received (00000001) at: 12 ns from: {0}
+Target [1] ready to receive something at: 16 ns
+Target [1] received (00010001) at: 16 ns from: {1}
+Target [1] ready to receive something at: 20 ns
+Target [1] received (00000100) at: 30 ns from: {0}
+Target [1] ready to receive something at: 34 ns
+Target [1] received (00010100) at: 51 ns from: {1}
+Target [1] ready to receive something at: 55 ns
+Target [1] received (00001010) at: 93 ns from: {0}
+Target [1] ready to receive something at: 97 ns
+Target [1] received (00001011) at: 97 ns from: {0}
+Target [1] ready to receive something at: 101 ns
+Target [1] received (00001100) at: 101 ns from: {0}
+Target [1] ready to receive something at: 105 ns
+Target [1] received (00001101) at: 105 ns from: {0}
+Target [1] ready to receive something at: 109 ns
+Target [1] received (00001110) at: 109 ns from: {0}
+Target [1] ready to receive something at: 113 ns
+Target [1] received (00011010) at: 113 ns from: {1}
+Target [1] ready to receive something at: 117 ns
+Target [1] received (00011011) at: 118 ns from: {1}
+Target [1] ready to receive something at: 122 ns
+Target [1] received (00011100) at: 123 ns from: {1}
+Target [1] ready to receive something at: 127 ns
+Target [1] received (00011101) at: 128 ns from: {1}
+Target [1] ready to receive something at: 132 ns
+Target [1] received (00011110) at: 133 ns from: {1}
+Target [1] ready to receive something at: 137 ns

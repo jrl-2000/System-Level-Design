@@ -1,0 +1,194 @@
+class dma_channel: public dma_interface, public sc_channel {
+public:
+
+   sc_out_rv<16> address_p;
+   sc_inout_rv<8> data_p;
+   sc_out_resolved rw_p;
+
+   dma_channel(sc_module_name nm): sc_channel(nm)
+      ,address_p("address_p")
+      ,data_p("data_p")
+      ,rw_p("rw_p")
+   { }
+
+   virtual void burstWrite( int destAddress, int numBytes, sc_lv<8> *data );
+   virtual void burstRead(int sourceAddress, int numBytes, sc_lv<8>* data);
+
+};
+
+
+class dma_channel: public dma_interface, public sc_channel {
+public:
+
+   sc_out_rv<16> address_p;
+   sc_inout_rv<8> data_p;
+   sc_out_resolved rw_p;
+
+   dma_channel(sc_module_name nm): sc_channel(nm)
+      ,address_p("address_p")
+      ,data_p("data_p")
+      ,rw_p("rw_p")
+   { }
+
+   virtual void burstWrite( int destAddress, int numBytes, sc_lv<8> *data );
+   virtual void burstRead(int sourceAddress, int numBytes, sc_lv<8>* data);
+
+};
+
+
+
+void dma_channel::burstWrite( int destAddress, int numBytes, sc_lv<8> *data ) {
+   
+   sc_lv<8> *ite = data;
+
+   for (int i=0; i<numBytes; i++) {
+
+      address_p->write(destAddress++);
+      data_p->write( *(ite++) );
+      wait(10, SC_NS);
+ 
+      cout << "Write out " << data_p->read() << endl;
+
+      rw_p->write(SC_LOGIC_0); // Write pulse
+      wait(50, SC_NS);
+      rw_p->write(SC_LOGIC_Z);
+
+      address_p->write("ZZZZZZZZZZZZZZZZ");
+      data_p->write("ZZZZZZZZ");
+
+      wait(10, SC_NS);
+   }
+
+}
+
+
+
+void dma_channel::burstRead(int sourceAddress, int numBytes, sc_lv<8>* data) {
+
+   for (int i=0; i<numBytes; i++) {
+
+      address_p->write(sourceAddress++);
+      wait(10, SC_NS);
+
+      rw_p->write(SC_LOGIC_1); // Read pulse
+      wait(10, SC_NS);
+
+      *(data++) = data_p->read();
+
+      cout << "Data read " << data_p->read() << endl;
+
+      wait(40, SC_NS);
+      rw_p->write(SC_LOGIC_Z);
+
+      address_p->write("ZZZZZZZZZZZZZZZZ");
+      data_p->write("ZZZZZZZZ");
+      wait(10, SC_NS);
+   }
+}
+
+
+
+class test_bench: public sc_module {
+   public:
+   sc_port<dma_interface> master_port;
+
+
+   SC_HAS_PROCESS(test_bench);
+
+   test_bench(sc_module_name nm): sc_module(nm) {
+      SC_THREAD(stimuli);
+   }
+
+};
+
+
+
+void test_bench::stimuli()
+   {
+      sc_lv<8> data_sent[10] = {20, 21, 22, 23, 24, 25,26,27,28,29};
+      sc_lv<8> data_rcv[10] = {0,0,0,0,0,0,0,0,0,0};
+
+      master_port->burstWrite(100, 10, data_sent);
+      wait(100, SC_NS);
+      master_port->burstRead(100, 10, data_rcv);
+      
+     for (int i=0; i<10; i++) {
+         if (data_sent[i] != data_rcv[i]) {
+            cout << data_sent[i] << " " << data_rcv[i] << endl;
+            cout << "data missmatch" << endl;
+         }
+      }
+}
+
+
+
+class rtl_memory: public sc_module {
+public:
+   sc_in_rv<16> address_p;
+   sc_inout_rv<8> data_p;
+   sc_in_resolved rw_p;
+   sc_lv<8> *mem_arr;
+   
+   SC_HAS_PROCESS(rtl_memory);
+   rtl_memory(sc_module_name nm, int mem_size = 100): sc_module(nm) {
+      mem_arr = new sc_lv<8>[mem_size];
+      for (int i=0; i< mem_size; i++) {
+         mem_arr[i] = sc_lv<8>(0);
+      }
+      SC_THREAD(run);
+         sensitive << rw_p;
+   }
+
+   ~rtl_memory() { 
+        delete []mem_arr; 
+  } 
+
+};
+
+
+
+void rtl_memory::run() // sensitive rw_p
+   {
+      while(true) {
+
+         // read cycle
+         if (rw_p->read() == SC_LOGIC_1) {
+            data_p->write( *( mem_arr+(sc_uint<16>(address_p->read())) ) );
+
+          // write cycle
+         } else if (rw_p->read() == SC_LOGIC_0) {
+            *(mem_arr + (sc_uint<16>(address_p->read()))) = data_p->read();
+         }
+         wait();
+      }
+   }
+
+
+// Main program
+int sc_main(int argc, char* argv[])
+{
+   sc_set_time_resolution(1, SC_NS);
+
+   sc_signal_rv<16> address_s;
+   sc_signal_rv<8> data_s;
+   sc_signal_resolved rw_s;
+
+   test_bench tb("tb");
+   dma_channel transactor("transactor");
+   rtl_memory uut("uut", 1000);
+
+   tb.master_port(transactor);
+   
+   transactor.data_p(data_s);
+   transactor.rw_p(rw_s);
+   transactor.address_p(address_s);
+   
+   uut.address_p(address_s);
+   uut.data_p(data_s);
+   uut.rw_p(rw_s);
+
+   sc_start();
+   return 0;
+}
+
+
